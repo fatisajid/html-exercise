@@ -22,6 +22,12 @@ p{
     margin: 0;
 }
 
+section{
+    height: 500px;
+    background: gray;
+    margin: 10px;
+}
+
 footer {
     background: silver;
     height: 70px;
@@ -45,25 +51,18 @@ footer {
     background: #ffe1b3;
 }
 
-section{
-    height: 500px;
-    background: gray;
-    margin: 10px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.GZ{
+.GZ {
     border: 1px solid;
-    width: 49%;
-    display: flex;
-    flex-wrap: wrap;
+    float: left;
+    height: 248px;
+    width: 468px; 
 }
 
 .PZ {
-    text-align: center;
-    justify-content: flex-start;
     border: 1px solid;
-    width: 49%;  
-    align-content: center;
+    float: left;
+    height: 122px;
+    line-height: 122px;
+    text-align: center;
+    width: 232px;
 }
